@@ -11,4 +11,4 @@
     vc.colorModel.selectDayBgColor = [UIColor orangeColor];//选中的背景颜色
     //如果需要改变区头区尾巴布局 在RJCalendarHeader 和 RJCalendarFooter类中修改即可
     
-![](https://github.com/cqyr/RJCalendar/raw/master/calendarDemo.mp4) 
+![](https://github.com/cqyr/RJCalendar/raw/master/calendarDemo.gif) 
