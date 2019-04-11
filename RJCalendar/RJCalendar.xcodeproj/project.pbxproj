@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2738AA191FFA96A41A50C033 /* libPods-RJCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4C636FE1ABD0B55591A877 /* libPods-RJCalendar.a */; };
+		5F1FA2BC20E2110600A332FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2BB20E2110600A332FA /* AppDelegate.m */; };
+		5F1FA2C420E2110700A332FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FA2C320E2110700A332FA /* Assets.xcassets */; };
+		5F1FA2CA20E2110700A332FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2C920E2110700A332FA /* main.m */; };
+		5F1FA2D420E2110700A332FA /* RJCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2D320E2110700A332FA /* RJCalendarTests.m */; };
+		5F1FA2DF20E2110700A332FA /* RJCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2DE20E2110700A332FA /* RJCalendarUITests.m */; };
+		5F1FA2EE20E211E200A332FA /* RJCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2ED20E211E200A332FA /* RJCalendarVC.m */; };
+		5F1FA2F420E21A7F00A332FA /* RJCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2F320E21A7F00A332FA /* RJCalendarCell.m */; };
+		5F1FA2F720E21A9900A332FA /* RJCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2F620E21A9900A332FA /* RJCalendarHeader.m */; };
+		5F1FA2FA20E21AAD00A332FA /* RJCalendarFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2F920E21AAD00A332FA /* RJCalendarFooter.m */; };
+		5F1FA2FD20E2309300A332FA /* RJCalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2FC20E2309300A332FA /* RJCalendarData.m */; };
+		5F1FA30020E2309F00A332FA /* RJCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA2FF20E2309F00A332FA /* RJCalendarModel.m */; };
+		5FB77FF920E4C6BF00F4507D /* RJTbvDragVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB77FF820E4C6BF00F4507D /* RJTbvDragVC.m */; };
+		5FE2184120E332C600F96EF6 /* RJSlidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2184020E332C600F96EF6 /* RJSlidingVC.m */; };
+		5FE2184420E3756500F96EF6 /* RJLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2184320E3756500F96EF6 /* RJLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F1FA2D020E2110700A332FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1FA2AF20E2110600A332FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1FA2B620E2110600A332FA;
+			remoteInfo = RJCalendar;
+		};
+		5F1FA2DB20E2110700A332FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1FA2AF20E2110600A332FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1FA2B620E2110600A332FA;
+			remoteInfo = RJCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F1FA2B720E2110600A332FA /* RJCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1FA2BA20E2110600A332FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F1FA2BB20E2110600A332FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1FA2C320E2110700A332FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1FA2C820E2110700A332FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1FA2C920E2110700A332FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F1FA2CF20E2110700A332FA /* RJCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1FA2D320E2110700A332FA /* RJCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarTests.m; sourceTree = "<group>"; };
+		5F1FA2D520E2110700A332FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1FA2DA20E2110700A332FA /* RJCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1FA2DE20E2110700A332FA /* RJCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarUITests.m; sourceTree = "<group>"; };
+		5F1FA2E020E2110700A332FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1FA2EC20E211E200A332FA /* RJCalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarVC.h; sourceTree = "<group>"; };
+		5F1FA2ED20E211E200A332FA /* RJCalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarVC.m; sourceTree = "<group>"; };
+		5F1FA2F120E217FF00A332FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5F1FA2F220E21A7F00A332FA /* RJCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarCell.h; sourceTree = "<group>"; };
+		5F1FA2F320E21A7F00A332FA /* RJCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarCell.m; sourceTree = "<group>"; };
+		5F1FA2F520E21A9900A332FA /* RJCalendarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarHeader.h; sourceTree = "<group>"; };
+		5F1FA2F620E21A9900A332FA /* RJCalendarHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarHeader.m; sourceTree = "<group>"; };
+		5F1FA2F820E21AAD00A332FA /* RJCalendarFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarFooter.h; sourceTree = "<group>"; };
+		5F1FA2F920E21AAD00A332FA /* RJCalendarFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarFooter.m; sourceTree = "<group>"; };
+		5F1FA2FB20E2309300A332FA /* RJCalendarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarData.h; sourceTree = "<group>"; };
+		5F1FA2FC20E2309300A332FA /* RJCalendarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarData.m; sourceTree = "<group>"; };
+		5F1FA2FE20E2309F00A332FA /* RJCalendarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJCalendarModel.h; sourceTree = "<group>"; };
+		5F1FA2FF20E2309F00A332FA /* RJCalendarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJCalendarModel.m; sourceTree = "<group>"; };
+		5FB77FF720E4C6BF00F4507D /* RJTbvDragVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJTbvDragVC.h; sourceTree = "<group>"; };
+		5FB77FF820E4C6BF00F4507D /* RJTbvDragVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJTbvDragVC.m; sourceTree = "<group>"; };
+		5FE2183F20E332C600F96EF6 /* RJSlidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSlidingVC.h; sourceTree = "<group>"; };
+		5FE2184020E332C600F96EF6 /* RJSlidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSlidingVC.m; sourceTree = "<group>"; };
+		5FE2184220E3756500F96EF6 /* RJLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJLayout.h; sourceTree = "<group>"; };
+		5FE2184320E3756500F96EF6 /* RJLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJLayout.m; sourceTree = "<group>"; };
+		CD4C636FE1ABD0B55591A877 /* libPods-RJCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RJCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DB201D82C20E48527A6A7A /* Pods-RJCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJCalendar/Pods-RJCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		F69B8B738723A538A0C1210B /* Pods-RJCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJCalendar/Pods-RJCalendar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1FA2B420E2110600A332FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2738AA191FFA96A41A50C033 /* libPods-RJCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2CC20E2110700A332FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2D720E2110700A332FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1FA2AE20E2110600A332FA = {
+			isa = PBXGroup;
+			children = (
+				5F1FA2B920E2110600A332FA /* RJCalendar */,
+				5F1FA2D220E2110700A332FA /* RJCalendarTests */,
+				5F1FA2DD20E2110700A332FA /* RJCalendarUITests */,
+				5F1FA2B820E2110600A332FA /* Products */,
+				B9A19ADDEE84D10EDA86B185 /* Pods */,
+				E479EC42373D2AAFA44D90A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1FA2B820E2110600A332FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA2B720E2110600A332FA /* RJCalendar.app */,
+				5F1FA2CF20E2110700A332FA /* RJCalendarTests.xctest */,
+				5F1FA2DA20E2110700A332FA /* RJCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1FA2B920E2110600A332FA /* RJCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA2BA20E2110600A332FA /* AppDelegate.h */,
+				5F1FA2BB20E2110600A332FA /* AppDelegate.m */,
+				5F1FA2C320E2110700A332FA /* Assets.xcassets */,
+				5F1FA2C820E2110700A332FA /* Info.plist */,
+				5F1FA2C920E2110700A332FA /* main.m */,
+				5F1FA2EC20E211E200A332FA /* RJCalendarVC.h */,
+				5F1FA2ED20E211E200A332FA /* RJCalendarVC.m */,
+				5F1FA2F120E217FF00A332FA /* PrefixHeader.pch */,
+				5F1FA2F220E21A7F00A332FA /* RJCalendarCell.h */,
+				5F1FA2F320E21A7F00A332FA /* RJCalendarCell.m */,
+				5F1FA2F520E21A9900A332FA /* RJCalendarHeader.h */,
+				5F1FA2F620E21A9900A332FA /* RJCalendarHeader.m */,
+				5F1FA2F820E21AAD00A332FA /* RJCalendarFooter.h */,
+				5F1FA2F920E21AAD00A332FA /* RJCalendarFooter.m */,
+				5F1FA2FB20E2309300A332FA /* RJCalendarData.h */,
+				5F1FA2FC20E2309300A332FA /* RJCalendarData.m */,
+				5F1FA2FE20E2309F00A332FA /* RJCalendarModel.h */,
+				5F1FA2FF20E2309F00A332FA /* RJCalendarModel.m */,
+				5FE2183F20E332C600F96EF6 /* RJSlidingVC.h */,
+				5FE2184020E332C600F96EF6 /* RJSlidingVC.m */,
+				5FE2184220E3756500F96EF6 /* RJLayout.h */,
+				5FE2184320E3756500F96EF6 /* RJLayout.m */,
+				5FB77FF720E4C6BF00F4507D /* RJTbvDragVC.h */,
+				5FB77FF820E4C6BF00F4507D /* RJTbvDragVC.m */,
+			);
+			path = RJCalendar;
+			sourceTree = "<group>";
+		};
+		5F1FA2D220E2110700A332FA /* RJCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA2D320E2110700A332FA /* RJCalendarTests.m */,
+				5F1FA2D520E2110700A332FA /* Info.plist */,
+			);
+			path = RJCalendarTests;
+			sourceTree = "<group>";
+		};
+		5F1FA2DD20E2110700A332FA /* RJCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA2DE20E2110700A332FA /* RJCalendarUITests.m */,
+				5F1FA2E020E2110700A332FA /* Info.plist */,
+			);
+			path = RJCalendarUITests;
+			sourceTree = "<group>";
+		};
+		B9A19ADDEE84D10EDA86B185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DB201D82C20E48527A6A7A /* Pods-RJCalendar.debug.xcconfig */,
+				F69B8B738723A538A0C1210B /* Pods-RJCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E479EC42373D2AAFA44D90A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C636FE1ABD0B55591A877 /* libPods-RJCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F1FA2B620E2110600A332FA /* RJCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1FA2E320E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendar" */;
+			buildPhases = (
+				B53A7852251FE28CA12BC2DA /* [CP] Check Pods Manifest.lock */,
+				5F1FA2B320E2110600A332FA /* Sources */,
+				5F1FA2B420E2110600A332FA /* Frameworks */,
+				5F1FA2B520E2110600A332FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJCalendar;
+			productName = RJCalendar;
+			productReference = 5F1FA2B720E2110600A332FA /* RJCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F1FA2CE20E2110700A332FA /* RJCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1FA2E620E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendarTests" */;
+			buildPhases = (
+				5F1FA2CB20E2110700A332FA /* Sources */,
+				5F1FA2CC20E2110700A332FA /* Frameworks */,
+				5F1FA2CD20E2110700A332FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1FA2D120E2110700A332FA /* PBXTargetDependency */,
+			);
+			name = RJCalendarTests;
+			productName = RJCalendarTests;
+			productReference = 5F1FA2CF20E2110700A332FA /* RJCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F1FA2D920E2110700A332FA /* RJCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1FA2E920E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendarUITests" */;
+			buildPhases = (
+				5F1FA2D620E2110700A332FA /* Sources */,
+				5F1FA2D720E2110700A332FA /* Frameworks */,
+				5F1FA2D820E2110700A332FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1FA2DC20E2110700A332FA /* PBXTargetDependency */,
+			);
+			name = RJCalendarUITests;
+			productName = RJCalendarUITests;
+			productReference = 5F1FA2DA20E2110700A332FA /* RJCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1FA2AF20E2110600A332FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = liushuangwangluokeji;
+				TargetAttributes = {
+					5F1FA2B620E2110600A332FA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					5F1FA2CE20E2110700A332FA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5F1FA2B620E2110600A332FA;
+					};
+					5F1FA2D920E2110700A332FA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5F1FA2B620E2110600A332FA;
+					};
+				};
+			};
+			buildConfigurationList = 5F1FA2B220E2110600A332FA /* Build configuration list for PBXProject "RJCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1FA2AE20E2110600A332FA;
+			productRefGroup = 5F1FA2B820E2110600A332FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1FA2B620E2110600A332FA /* RJCalendar */,
+				5F1FA2CE20E2110700A332FA /* RJCalendarTests */,
+				5F1FA2D920E2110700A332FA /* RJCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1FA2B520E2110600A332FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA2C420E2110700A332FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2CD20E2110700A332FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2D820E2110700A332FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B53A7852251FE28CA12BC2DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RJCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1FA2B320E2110600A332FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA2EE20E211E200A332FA /* RJCalendarVC.m in Sources */,
+				5F1FA2F420E21A7F00A332FA /* RJCalendarCell.m in Sources */,
+				5F1FA2CA20E2110700A332FA /* main.m in Sources */,
+				5F1FA30020E2309F00A332FA /* RJCalendarModel.m in Sources */,
+				5F1FA2F720E21A9900A332FA /* RJCalendarHeader.m in Sources */,
+				5F1FA2FA20E21AAD00A332FA /* RJCalendarFooter.m in Sources */,
+				5F1FA2BC20E2110600A332FA /* AppDelegate.m in Sources */,
+				5FE2184420E3756500F96EF6 /* RJLayout.m in Sources */,
+				5FB77FF920E4C6BF00F4507D /* RJTbvDragVC.m in Sources */,
+				5F1FA2FD20E2309300A332FA /* RJCalendarData.m in Sources */,
+				5FE2184120E332C600F96EF6 /* RJSlidingVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2CB20E2110700A332FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA2D420E2110700A332FA /* RJCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA2D620E2110700A332FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA2DF20E2110700A332FA /* RJCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F1FA2D120E2110700A332FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1FA2B620E2110600A332FA /* RJCalendar */;
+			targetProxy = 5F1FA2D020E2110700A332FA /* PBXContainerItemProxy */;
+		};
+		5F1FA2DC20E2110700A332FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1FA2B620E2110600A332FA /* RJCalendar */;
+			targetProxy = 5F1FA2DB20E2110700A332FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F1FA2E120E2110700A332FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F1FA2E220E2110700A332FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F1FA2E420E2110700A332FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DB201D82C20E48527A6A7A /* Pods-RJCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RJCalendar/PrefixHeader.pch";
+				INFOPLIST_FILE = RJCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1FA2E520E2110700A332FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69B8B738723A538A0C1210B /* Pods-RJCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RJCalendar/PrefixHeader.pch";
+				INFOPLIST_FILE = RJCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F1FA2E720E2110700A332FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJCalendar.app/RJCalendar";
+			};
+			name = Debug;
+		};
+		5F1FA2E820E2110700A332FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJCalendar.app/RJCalendar";
+			};
+			name = Release;
+		};
+		5F1FA2EA20E2110700A332FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RJCalendar;
+			};
+			name = Debug;
+		};
+		5F1FA2EB20E2110700A332FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuangwangluokeji.RJCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RJCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1FA2B220E2110600A332FA /* Build configuration list for PBXProject "RJCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA2E120E2110700A332FA /* Debug */,
+				5F1FA2E220E2110700A332FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1FA2E320E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA2E420E2110700A332FA /* Debug */,
+				5F1FA2E520E2110700A332FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1FA2E620E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA2E720E2110700A332FA /* Debug */,
+				5F1FA2E820E2110700A332FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1FA2E920E2110700A332FA /* Build configuration list for PBXNativeTarget "RJCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA2EA20E2110700A332FA /* Debug */,
+				5F1FA2EB20E2110700A332FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1FA2AF20E2110600A332FA /* Project object */;
+}
